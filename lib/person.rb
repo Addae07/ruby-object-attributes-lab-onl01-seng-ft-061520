@@ -1,16 +1,17 @@
 class Person
- end
+def name=(name)
+  @name = name
+end
 
- def name
-  @Will
- end
+def name
+  @name
+end
 
-def walk
-   puts "The Person is walking"
- end
+def job=(job)
+  @job = job
+end
 
-adele_goldberg = Person.new
-puts adele_goldberg
-
-alan_kay = Person.new
-puts alan_kay
+def job
+  @job
+end
+end
